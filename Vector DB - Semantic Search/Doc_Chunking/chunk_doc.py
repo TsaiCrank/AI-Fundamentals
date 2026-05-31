@@ -93,13 +93,6 @@ def process_documents():
     print("• Optimal for embedding models")
     print("• Improves retrieval accuracy by 40%!")
 
-    # Create completion marker
-    os.makedirs("/root/markers", exist_ok=True)
-    with open("/root/markers/task2_chunking_complete.txt", "w") as f:
-        f.write("COMPLETED")
-
-    print("\n✅ Task 2 completed! Document chunking mastered.")
-
     return chunks
 
 if __name__ == "__main__":

@@ -24,7 +24,7 @@ def main():
     query_emb = model.encode(query)
     doc_embs = model.encode(docs)
 
-    # TODO 3: Find semantic matches
+    # Find semantic matches
     scores = util.cos_sim(query_emb, doc_embs)[0]
 
     print(f"Query: '{query}'\n")
@@ -36,8 +36,6 @@ def main():
     print("\n💡 Notice: Found 'Password recovery' and 'Login help'")
     print("   Even though query didn't contain those exact words!")
 
-    os.makedirs("/root/markers", exist_ok=True)
-    open("/root/markers/task1_embeddings_complete.txt", "w").write("DONE")
 
 if __name__ == "__main__":
     main()
