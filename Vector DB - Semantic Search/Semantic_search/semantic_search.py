@@ -116,13 +116,5 @@ def build_search_engine():
     print("• 'work from home' finds 'remote work policy'")
     print("• Ready for production deployment!")
 
-    # Create completion marker
-    os.makedirs("/root/markers", exist_ok=True)
-    with open("/root/markers/task4_search_complete.txt", "w") as f:
-        f.write("COMPLETED")
-
-    print("\n✅ Task 4 completed! Semantic search mastered!")
-    print("🎉 You've completed the Vector Databases lab!")
-
 if __name__ == "__main__":
     build_search_engine()

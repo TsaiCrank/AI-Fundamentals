@@ -111,12 +111,7 @@ def main():
     print("• Persistent storage support")
     print("• Ready for RAG applications!")
 
-    # Create completion marker
-    os.makedirs("/root/markers", exist_ok=True)
-    with open("/root/markers/task3_vectorstore_complete.txt", "w") as f:
-        f.write("COMPLETED")
-
-    print("\n✅ Task 3 completed! Vector store built successfully.")
+    print("\n✅Vector store built successfully.")
 
 if __name__ == "__main__":
     main()
