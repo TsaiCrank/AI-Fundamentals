@@ -36,6 +36,5 @@ def main():
     print("\n💡 Notice: Found 'Password recovery' and 'Login help'")
     print("   Even though query didn't contain those exact words!")
 
-
 if __name__ == "__main__":
     main()

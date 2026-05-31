@@ -103,7 +103,6 @@ def main():
                 print(f"   Source: {results[0].metadata.get('source', 'unknown')}")
 
     # Key insights
-    print("\n💡 What We Built:")
     print("-" * 40)
     print("• Production-ready vector database")
     print("• Semantic search capability")

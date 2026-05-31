@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-🔍 Task 4: Semantic Search Implementation
-Build a complete semantic search system that understands meaning!
+🔍Semantic Search Implementation
+Build a complete semantic search system that understands meaning
 """
 
 import os
@@ -12,7 +12,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.documents import Document
 
 def build_search_engine():
-    print("🔍 Task 4: Semantic Search Implementation")
+    print("🔍Semantic Search Implementation")
     print("=" * 55)
 
     # Initialize embeddings
@@ -109,12 +109,10 @@ def build_search_engine():
             print(f"{status} '{query}' → Found: {expected_topic}")
 
     # Key achievements
-    print("\n🏆 What You've Achieved:")
     print("-" * 40)
     print("• Built a semantic search engine")
     print("• Search understands MEANING not keywords")
-    print("• 'work from home' finds 'remote work policy'")
-    print("• Ready for production deployment!")
+
 
 if __name__ == "__main__":
     build_search_engine()
