@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
 """
-🧠 Task 1: Embeddings - Teaching Computers to Understand Meaning
+Embeddings - Teaching Computers to Understand Meaning
 """
 
 import os

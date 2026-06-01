@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
 """
-🗄️ Task 3: Build Vector Store with ChromaDB
+Build Vector Store with ChromaDB
 Create a production-ready vector database using LangChain and ChromaDB.
 """
 

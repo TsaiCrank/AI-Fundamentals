@@ -1,5 +1,5 @@
 """
-Task 2: Smart Document Processing
+Smart Document Processing
 Implement paragraph-based chunking for better RAG context
 """
 
