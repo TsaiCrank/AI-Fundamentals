@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
 """
-Task 5: Understanding Tokens and Business Costs
+Understanding Tokens and Business Costs
 Learn how tokens work and calculate real business costs for AI usage.
 """
 

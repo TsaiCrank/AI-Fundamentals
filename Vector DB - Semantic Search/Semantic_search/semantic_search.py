@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 🔍Semantic Search Implementation
 Build a complete semantic search system that understands meaning

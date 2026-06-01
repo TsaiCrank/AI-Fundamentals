@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
 """
-📄 Task 2: Document Processing with Smart Chunking
+Document Processing with Smart Chunking
 Split documents intelligently for vector embedding.
 """
 
